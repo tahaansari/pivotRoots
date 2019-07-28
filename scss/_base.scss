@@ -4,19 +4,87 @@
 */
 
 // reset end
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -24,99 +92,184 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-// reset end
 
+// reset end
 *,
 *:before,
-*:after{
+*:after {
 	box-sizing: border-box;
+	outline: none;
 }
 
-html{font-size: 15px}
+html {
+	font-size: 15px
+}
 
-@media(max-width:480px){
-	html{font-size: 13px}
+@media(max-width:480px) {
+	html {
+		font-size: 13px
+	}
 }
 
 // for body
-body{ font-family: $font-regular}
+body {
+	font-family: $font-regular;
+	font-weight: 300;
+}
 
+;
 // for headings
-h1,h2,h3,h4,h5,h6{ font-weight:500; line-height:1.2; margin-bottom: .5em; letter-spacing: 0.6px;}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 400;
+	line-height: 1.2;
+	margin-bottom: .5em;
+	letter-spacing: 0.6px;
+}
 
-h1{font-size: 2rem;}
-h2{font-size: 1.8rem;}
-h3{font-size: 1.6rem;}
-h4{font-size: 1.4rem;}
-h5{font-size: 1.4rem; font-weight: 400}
-h6{font-size: 1rem;}
+h1 {
+	font-size: 3rem;
+	font-weight: 300
+}
 
-@media(max-width:480px){
+h2 {
+	font-size: 1.8rem;
+}
 
-	h1{font-size: 1.8rem;}
-	h2{font-size: 1.6rem;}
-	h3{font-size: 1.4rem;}
-	h4{font-size: 1.2rem;}
-	h5{font-size: 1.2rem;}
-	h6{font-size: 1rem;}
+h3 {
+	font-size: 1.6rem;
+	font-weight: 300
+}
+
+h4 {
+	font-size: 1.4rem;
+}
+
+h5 {
+	font-size: 1.2rem;
+}
+
+h6 {
+	font-size: 1rem;
+}
+
+@media(max-width:480px) {
+	h1 {
+		font-size: 1.8rem;
+	}
+	h2 {
+		font-size: 1.6rem;
+	}
+	h3 {
+		font-size: 1.4rem;
+	}
+	h4 {
+		font-size: 1.2rem;
+	}
+	h5 {
+		font-size: 1.1rem;
+	}
+	h6 {
+		font-size: 1rem;
+	}
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 // for paragraph
-p{line-height: 1.5; letter-spacing: 0.6px}
+p {
+	line-height: 1.5;
+	letter-spacing: 0.6px;
+	margin-bottom: 1em
+}
 
-a{text-decoration: none}
+a {
+	text-decoration: none
+}
 
-img{max-width: 100%}
+img {
+	max-width: 100%
+}
 
 input,
 textarea,
 button,
-select{
+select {
 	font-family: inherit;
-	font-size: 14px;;
+	font-size: 14px;
+	;
 }
 
-textarea{ resize: none;}
+textarea {
+	resize: none;
+}
 
-section{
-    padding-top:80px;
-	padding-bottom: 80px;
-    @media(max-width:992px){ 
-        padding-top:50px;
-        padding-bottom:50px; 
+section {
+	// padding-top:80px;
+	// padding-bottom: 80px;
+	@media(max-width: 992px) {
+		padding-top:50px;
+		padding-bottom: 50px;
 	}
-	&.nopad{
-		padding-top:0;
-		padding-bottom:0;
+	&.nopad {
+		padding-top: 0;
+		padding-bottom: 0;
 	}
 }
 
-.l-container{
-	max-width: 1230px; 
-	margin: auto; 
-	padding-left:15px; 
+.l-container {
+	max-width: 1230px;
+	margin: auto;
+	padding-left: 15px;
 	padding-right: 15px;
 }

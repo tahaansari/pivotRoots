@@ -1,22 +1,59 @@
 // FOR TEXT
-.text-left{text-align: left}
-.text-center{text-align: center}
-.text-right{text-align: right}
+.text-left {
+	text-align: left
+}
+
+.text-center {
+	text-align: center
+}
+
+.text-right {
+	text-align: right
+}
 
 // FOR FLEX
-.l-flex{display: flex} 
+.l-flex {
+	display: flex
+}
 
-.flex-top{align-items: flex-start}
-.flex-middle{align-items: center}
-.flex-bottom{align-items: flex-end}
+.flex-top {
+	align-items: flex-start
+}
 
-.flex-push-left{ justify-content: flex-start}
-.flex-center{ justify-content: center}
-.flex-push-right{ justify-content: flex-end}
+.flex-middle {
+	align-items: center
+}
+
+.flex-bottom {
+	align-items: flex-end
+}
+
+.flex-push-left {
+	justify-content: flex-start
+}
+
+.flex-center {
+	justify-content: center
+}
+
+.flex-push-right {
+	justify-content: flex-end
+}
 
 // FOR MULTI LINE
-.flex-content-top{align-content: flex-start}
-.flex-content-middle{align-content: center}
-.flex-content-bottom{align-content: flex-end}
+.flex-content-top {
+	align-content: flex-start
+}
 
-.flex-middle-center{align-items: center; justify-content: center}
+.flex-content-middle {
+	align-content: center
+}
+
+.flex-content-bottom {
+	align-content: flex-end
+}
+
+.flex-middle-center {
+	align-items: center;
+	justify-content: center
+}
